@@ -1,0 +1,26 @@
+<mvc:View
+    controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <Button
+                id="_IDGenButton1"
+                text="{i18n>showHelloButtonText}"
+                press="onClick"
+            />
+            <Input
+                id="input"
+                value="{/recipient/name}"
+                description="Hello {/recipient/name}"
+                valueLiveUpdate="true"
+                width="60%"
+            />
+        </content>
+    </Page>
+</mvc:View>

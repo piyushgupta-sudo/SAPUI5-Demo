@@ -1,0 +1,21 @@
+{ 
+
+    "base": "./dist", 
+
+    "conn_usestrictssl" : false, 
+
+    "conn_server": "http://<hostname>:<port>/"
+
+    "conn_client" : "client", 
+
+    "conn_user": "username",        //  hana username
+
+    "conn_password": "password",   // hana password
+
+    "abap_package": "$TMP",       //package name
+
+    "abap_bsp": "ZChait",  //Name of the file to create in server(should starts with "Z")
+
+    "abap_bsp_text": "Split App through VSCode App"    //Description for that
+
+} 
